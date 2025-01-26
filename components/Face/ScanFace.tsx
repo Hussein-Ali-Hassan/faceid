@@ -267,6 +267,15 @@ export default function ScanFace({
         autoPlay={true}
         muted
       />
+      {state === "register" ? (
+        <p className="text-center">
+          Please wait until you are prompted that you have registered
+        </p>
+      ) : (
+        <p className="text-center">
+          Please wait until you are prompted that you have logged in
+        </p>
+      )}
     </div>
   );
 }

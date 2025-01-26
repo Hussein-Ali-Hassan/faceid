@@ -13,6 +13,8 @@ export default function ScanPage() {
         <Register faceMatcher={faceMatcher} setFaceMatcher={setFaceMatcher} />
         <Login faceMatcher={faceMatcher} setFaceMatcher={setFaceMatcher} />
       </div>
+
+      <p className="mt-4">Note: Do not refresh between scans</p>
     </div>
   );
 }
